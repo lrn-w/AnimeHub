@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Anime Hub GY</title>
+    <!-- Favicon-->
+    <!--<link rel="icon" type="image/x-icon" href="assets/favicon.ico" /> -->
+    <!-- Bootstrap icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD" crossorigin="anonymous">
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="../static/css/styles.css" rel="stylesheet" />
+    </head>
+<body class="d-flex flex-column h-100">
+    <main class="flex-shrink-0">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <img id="animeLogo" src="../static/media/animehub.jpg" alt="anime hub logo">
+            <div class="container px-5" id="nav-brand">
+                <p class="navbar-brand">Anime Hub Guyana</p>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#packages" id="anniversaryLink">Anniversary Product Order</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#hours-of-operation">Hours of Operation</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#corporate-info">Corporate Information</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Header-->
+        <header class="bg-dark py-5">
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center justify-content-center">
+                    <div class="col-lg-8 col-xl-7 col-xxl-6">
+                        <div class="my-5 text-center text-xl-start">
+                            <h1 class="display-5 fw-bolder text-white mb-2">Hub for Guyana's anime fans</h1>
+                            <p class="lead fw-normal text-white-50 mb-4"> Providing unique and high quality merchandise</p>
+                            <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
+                                <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#packages">Get Started</a>
+                                <a class="btn btn-outline-light btn-lg px-4" href="#corporate-info">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"><img class="img-fluid rounded-3 my-5" src="../static/media/pikachu.png" alt="pikachu" /></div>
+                </div>
+            </div>
+        </header>
+        <!-- Packages section-->
+        <section class="py-5" id="packages">
+            <form id="order-form" name="order-form" method="POST">
+                <div class="container px-5 my-5">
+                    <h2> Celebrate our one year anniversary! &#127881;</h2>
+                    <h5 class="text-muted"> Select a package</h5>
+                    <div class="row gx-5">
+
+                        <div class="col-lg-8">
+                            <div class="row gx-5 justify-content-center">
+                                <!-- Anniversary-->
+                                <div class="col-lg-6 col-xl-4">
+                                    <div class="card mb-5 mb-xl-0">
+                                        <div class="card-body p-5">
+                                            <div class="small text-uppercase fw-bold text-muted">Aniversary Comic</div>
+                                            <div class="mb-3">
+                                                <span class="display-4 fw-bold">$400</span>
+                                                <span class="text-muted"> GYD</span>
+                                            </div>
+                                            <ul class="list-unstyled mb-4">
+                                                <li class="mb-2">
+                                                    <i class="bi bi-check text-primary"></i>
+                                                    <strong>A limited edition comic book</strong>
+                                                </li>
+                                            </ul>
+                                            <label for="packageNumber"></label>
+                                            <input type="radio" id="packageNumber" class="btn btn-outline-primary" name="packageNumber" value="1"></input>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Comic Book-->
+                                <div class="col-lg-6 col-xl-4">
+                                    <div class="card mb-5 mb-xl-0">
+                                        <div class="card-body p-5">
+                                            <div class="small text-uppercase fw-bold text-muted"> Comic Book</div>
+                                            <div class="mb-3">
+                                                <span class="display-4 fw-bold">$800</span>
+                                                <span class="text-muted"> GYD</span>
+                                            </div>
+                                            <ul class="list-unstyled mb-4">
+                                                <li class="mb-2">
+                                                    <i class="bi bi-check text-primary"></i>
+                                                    <strong>Multiple comic books</strong>
+                                                </li>
+                                            </ul>
+                                            <label for="packageNumber"></label>
+                                            <input type="radio" id="packageNumber" class="btn btn-outline-primary" name="packageNumber" value="2"></input>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Anniverary anime card -->
+                                <div class="col-lg-6 col-xl-4">
+                                    <div class="card mb-5 mb-xl-0">
+                                        <div class="card-body p-5">
+                                            <div class="small text-uppercase fw-bold">
+                                                <i class="bi bi-star-fill text-warning"></i>
+                                                Anniversary Anime
+                                            </div>
+                                            <div class="mb-3">
+                                                <span class="display-4 fw-bold">$1500</span>
+                                                <span class="text-muted"> GYD</span>
+                                            </div>
+                                            <ul class="list-unstyled mb-4">
+                                                <li class="mb-2">
+                                                    <i class="bi bi-check text-primary"></i>
+                                                    <strong>Japanese comic books</strong>
+                                                </li>
+                                            </ul>
+                                            <label for="packageNumber"></label>
+                                            <input type="radio" id="packageNumber" class="btn btn-outline-primary" name="packageNumber" value="3"></input>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Deluxe anime card -->
+                                <div class="col-lg-6 col-xl-4">
+                                    <div class="card mb-5 mb-xl-0">
+                                        <div class="card-body p-5">
+                                            <div class="small text-uppercase fw-bold">
+                                                <i class="bi bi-star-fill text-warning"></i>
+                                                Deluxe
+                                            </div>
+                                            <div class="mb-3">
+                                                <span class="display-4 fw-bold">$3000</span>
+                                                <span class="text-muted"> GYD</span>
+                                            </div>
+                                            <ul class="list-unstyled mb-4">
+                                                <li class="mb-2">
+                                                    <i class="bi bi-check text-primary"></i>
+                                                    <strong>Selection of limited print comic books</strong>
+                                                </li>
+                                            </ul>
+                                            <label for="packageNumber"></label>
+                                            <input type="radio" id="packageNumber" class="btn btn-outline-primary" name="packageNumber" value="4"></input>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Mystery card-->
+                                <div class="col-lg-6 col-xl-4">
+                                    <div class="card">
+                                        <div class="card-body p-5">
+                                            <div class="small text-uppercase fw-bold text-muted">Mystery</div>
+                                            <div class="mb-3">
+                                                <span class="display-4 fw-bold">$1000</span>
+                                                <span class="text-muted"> GYD</span>
+                                            </div>
+                                            <ul class="list-unstyled mb-4">
+                                                <li class="mb-2">
+                                                    <i class="bi bi-check text-primary"></i>
+                                                    <strong>Selection of comic books</strong>
+                                                </li>
+                                                <li class="mb-2">
+                                                    <i class="bi bi-check text-primary"></i>
+                                                    T-shirt
+                                                </li>
+                                            </ul>
+                                            <label for="packageNumber"></label>
+                                            <input type="radio" id="packageNumber" name="packageNumber" class="btn btn-outline-primary" value="5">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row gx-5 justify-content-center">
+                            <div class="col-lg-8 col-xl-6">
+                                <!-- Name input-->
+                                <div class="form-floating mb-3">
+                                    <input class="form-control" id="customerName" type="text" name="customerName" placeholder="Enter your name..." data-sb-validations="required" />
+                                    <label for="customerName">Full name</label>
+                                    <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                                </div>
+                                <!-- Address input-->
+                                <div class="form-floating mb-3">
+                                    <input class="form-control" id="customerAddress" type="text" name="customerAddress" placeholder="Enter your address..." data-sb-validations="required" />
+                                    <label for="customerAddress">Address</label>
+                                    <div class="invalid-feedback" data-sb-feedback="name:required">An address is required.</div>
+                                </div>
+
+                                <!-- Email address input-->
+                                <div class="form-floating mb-3">
+                                    <input class="form-control" id="customerEmail" type="email" name="customerEmail" placeholder="name@example.com" data-sb-validations="required,email" />
+                                    <label for="customerEmail">Email address</label>
+                                    <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                                    <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                                </div>
+                                <!-- Phone number input-->
+                                <div class="form-floating mb-3">
+                                    <input class="form-control" id="customerPhone" name="customerPhone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
+                                    <label for="phone">Phone number</label>
+                                    <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+                                </div>
+                                <!-- Region input-->
+                                <label for="customerRegion">Select Region:</label>
+                                <div class="form-floating mb-3">
+                                    <select id="customerRegion" name="customerRegion">
+                                        <option value="Asia">Asia </option>
+                                        <option value="Europe"> Europe </option>
+                                        <option value="NorthAmerica"> North America </option>
+                                    </select>
+                                </div>
+
+                                <input type="submit" class="btn btn-outline-primary" value="Place Order" id="submit-button" name="submit-button">
+                            </div>
+            </form>
+            <br><div class="col-lg-8 col-xl-6" name="order-response" id="order-response"></div>
+                        </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+        </section>
+        <!-- Hours of Operation section-->
+        <div class="py-5 bg-light" id="hours-of-operation">
+            <div class="container px-5 my-5">
+                <h2 class="fw-bolder">Store and Hours of Operation</h2>
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-lg-8 col-xl-6">
+                        <div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row gx-5">
+                    <div class="col-lg-4 mb-5">
+                        <div class="card h-100 shadow border-0">
+                            <div class="card-body p-4">
+                                <h5 class="card-title mb-3">Region 4</h5>
+                                <p class="card-text mb-0">Collage. Located at Lot 50, Section I Sherrif St. Georgetown. (next to Ramchand Auto Spares)</p><br>
+                                <p class="card-text mb-0">Opening Hours:</p>
+                                <p class="card-text mb-0">Mon-Fri: 9AM - 5PM</p>
+                                <p class="card-text mb-0">Sat: 10AM - 4PM</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-5">
+                        <div class="card h-100 shadow border-0">
+                            <div class="card-body p-4">
+                                <h5 class="card-title mb-3">Region 5</h5>
+                                <p class="card-text mb-0">M Chand's Pharmacy. Located at 215A Ritz Mall, Rosignol (by the daily market)</p><br>
+                                <p class="card-text mb-0">Opening Hours:</p>
+                                <p class="card-text mb-0">Mon-Fri: 8AM - 3PM</p>
+                                <p class="card-text mb-0">Sat: 8AM - 5PM</p>
+                                <p class="card-text mb-0">Sun & Hol: 8AM - 12PM</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-5">
+                        <div class="card h-100 shadow border-0">
+                            <div class="card-body p-4">
+                                <h5 class="card-title mb-3">Region 6</h5>
+                                <p class="card-text mb-0">Zim & Mo's Investment. Located at Strand, New Amsterdam (opposite J's supermarket)</p><br>
+                                <p class="card-text mb-0">Opening Hours:</p>
+                                <p class="card-text mb-0">Mon-Sat: 9AM - 4PM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Corporate Info section-->
+        <div>
+            <section class="py-5" id="corporate-info">
+                <img class="img-fluid" src="../static/media/deku-removebg.png" id="deku" alt="deku" />
+                <div class="container px-5 my-5">
+                    <h2 class="fw-bolder">Corporate Information</h2>
+                    <p> Elevate your fandom experience. Anime Hub Guyana is your one stop shop for anime merchandise. Going to an expo or convention? Come visit our booth!</p>
+            </section>
+        </div>
+        </div>
+        <!-- Contact-->
+        <div class="py-5 bg-dark " id="contact">
+            <div class="container px-5 ">
+                <h2 class="fw-bolder">Contact Us</h2>
+                <p> Find us on our various social media pages </p>
+                <a class="fs-5 px-2 link-light" href="https://www.tiktok.com/@animehub_gy?is_from_webapp=1&sender_device=pc"><i class="bi-tiktok"></i></a>
+                <a class="fs-5 px-2 link-light" href="https://www.facebook.com/profile.php?id=100089372757185"><i class="bi-facebook"></i></a>
+                <a class="fs-5 px-2 link-light" href="https://www.instagram.com/animehub_gy"><i class="bi bi-instagram"></i></a><br>
+                <br><h3><i class="bi bi-telephone"> +592 674 5403</i></h3>
+                <br><h3><i class="bi bi-envelope-heart"> animehub.gy@gmail.com</i></h3>
+            </div>
+
+    </main>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <!-- Core theme JS-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="../static/js/scripts.js"></script>
+
+</body>
+</html>
